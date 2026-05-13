@@ -1,0 +1,38 @@
+2026-05-13 11:43:48 - Patient John Emergency (Priority: 0) added to queue
+2026-05-13 11:43:50 - Patient Bob High (Priority: 2) added to queue
+
+=== Current Queue (2 patients) ===
+ID    Name            Age   Priority  
+----------------------------------------
+0     John Emergency  45    0         
+2     Bob High        30    2         
+
+
+=== FCFS Scheduling ===
+Patient              Start Time
+--------------------------------
+John Emergency       Wed May 13 11:43:52 2026
+Bob High             Wed May 13 11:44:00 2026
+
+=== SJF Scheduling (by severity) ===
+Patient              Severity   Start Time
+----------------------------------------
+Bob High             3          Wed May 13 11:43:52 2026
+John Emergency       5          Wed May 13 11:44:04 2026
+
+=== Priority Scheduling ===
+Patient              Priority   Start Time
+----------------------------------------
+John Emergency       0          Wed May 13 11:43:52 2026
+Bob High             2          Wed May 13 11:44:00 2026
+
+=== Round Robin Scheduling (Quantum: 5, Patients: 2) ===
+Patient              Time Slot  Status    
+--------------------------------------------
+John Emergency       0          Processing
+Bob High             5          Processing
+John Emergency       10         Processing
+Bob High             15         Processing
+--- Round Robin Complete (2 rounds) ---
+
+2026-05-13 11:44:00 - Patient Emma Urgent (Priority: 0) added to queue

@@ -1,0 +1,3 @@
+2026-05-13 11:43:43 - Memory pool initialized with size: 4096 bytes
+2026-05-13 11:43:52 - Best-Fit: Allocated bed 0 of size 100 (wasted: 3996)
+2026-05-13 11:43:52 - Best-Fit allocation successful for bed 0

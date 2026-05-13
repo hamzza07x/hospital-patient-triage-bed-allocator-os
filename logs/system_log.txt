@@ -1,0 +1,35 @@
+2026-05-13 11:43:43 - Hospital system initialized
+2026-05-13 11:43:43 - Scheduler thread started
+2026-05-13 11:43:43 - Scheduler assigned bed 0
+2026-05-13 11:43:43 - Receptionist thread started
+2026-05-13 11:43:43 - All system threads started
+2026-05-13 11:43:43 - Nurse thread started
+2026-05-13 11:43:43 - Scheduler assigned bed 1
+2026-05-13 11:43:44 - Scheduler assigned bed 2
+2026-05-13 11:43:44 - Scheduler assigned bed 3
+2026-05-13 11:43:45 - Scheduler assigned bed 4
+2026-05-13 11:43:45 - Scheduler assigned bed 5
+2026-05-13 11:43:46 - Scheduler assigned bed 6
+2026-05-13 11:43:46 - Scheduler assigned bed 7
+2026-05-13 11:43:47 - Scheduler assigned bed 8
+2026-05-13 11:43:47 - Scheduler assigned bed 9
+2026-05-13 11:43:48 - Patient John Emergency admitted and queued
+2026-05-13 11:43:48 - Patient 0 (PID: 4206) arrived at hospital
+2026-05-13 11:43:48 - Patient 0 started treatment (duration: 13 seconds)
+2026-05-13 11:43:49 - Receptionist admitted patient: Alice Critical (Priority: 1)
+2026-05-13 11:43:50 - Patient Bob High admitted and queued
+2026-05-13 11:43:50 - Patient 2 (PID: 4249) arrived at hospital
+2026-05-13 11:43:50 - Patient 2 started treatment (duration: 8 seconds)
+2026-05-13 11:43:51 - Receptionist admitted patient: Carol Medium (Priority: 3)
+2026-05-13 11:43:52 - Receptionist admitted patient: David Low (Priority: 4)
+2026-05-13 11:43:58 - Patient 2 discharged after 8 seconds
+2026-05-13 11:43:58 - Nurse discharged patient 2 from bed 0
+2026-05-13 11:43:58 - Scheduler assigned bed 0
+2026-05-13 11:44:00 - Patient Emma Urgent admitted and queued
+2026-05-13 11:44:00 - Patient 5 (PID: 4283) arrived at hospital
+2026-05-13 11:44:00 - Patient 5 started treatment (duration: 13 seconds)
+2026-05-13 11:44:00 - Receptionist admitted patient: Iris Stable (Priority: 4)
+2026-05-13 11:44:01 - Patient 0 discharged after 13 seconds
+2026-05-13 11:44:01 - Nurse discharged patient 0 from bed 0
+2026-05-13 11:44:01 - Scheduler assigned bed 0
+2026-05-13 11:44:07 - Patient 5 discharged after 13 seconds
