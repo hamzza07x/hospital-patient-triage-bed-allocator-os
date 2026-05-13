@@ -276,19 +276,6 @@ Patient 0 started treatment
 
 ---
 
-# Screenshots
-
-## System Demo
-(Add screenshot here)
-
-## Logs
-(Add screenshot here)
-
-## Architecture Diagram
-(Add screenshot here)
-
----
-
 # Future Improvements
 
 - GUI dashboard
@@ -318,7 +305,7 @@ This project provides practical understanding of:
 
 # Author
 
-Hamza  
+Muhammad Hamza  
 Computer Science Student
 
 ---
